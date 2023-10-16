@@ -1,4 +1,4 @@
-# RedditDomainScout
+# Reddit Domain Scout
 
 RedditDomainScout is a Python tool designed to fetch recent posts from a specified domain using the Reddit API. It provides an interactive experience, prompting users for the desired domain and displaying the most recent submissions linked to that domain.
 
