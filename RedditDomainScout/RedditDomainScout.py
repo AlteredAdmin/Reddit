@@ -50,7 +50,8 @@ def main():
             title = submission.title
             created_time = datetime.fromtimestamp(submission.created)
             url = submission.url
-            print(f"Title: {title}\nTime: {created_time}\nURL: {url}\n{'-' * 40}")
+            reddit_link = submission.permalink
+            print(f"Title: {title}\nTime: {created_time}\nURL: {url}\nReddit Link: https://www.reddit.com{reddit_link}\n{'-' * 40}")
 
     except Exception as e:
         print(f"An error occurred: {e}")
